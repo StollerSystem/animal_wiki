@@ -1,0 +1,13 @@
+body {
+  background-color: gray;
+}
+
+.container {
+  background-color: rgb(83, 83, 83);
+}
+
+.llama, .antEater, .orangutan {
+  display: none;
+  text-align: center;
+  padding: 15px;
+}
