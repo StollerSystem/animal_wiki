@@ -10,18 +10,14 @@ $(document).ready(function() {
   });
 
   function chooseAnimal(input) {
-    //let choice = input 
+    
+    $(".llama, .antEater, .orangutan").hide(500);
     if (input === "1") {
-      $(".llama").show();
+      $(".llama").show(500);
     } else if (input === "2") {
-      $(".andEater").show();
+      $(".antEater").show(500);
     } else if (input === "3") {
-      $(".oranguntan").show();
+      $(".orangutan").show(500);
     }    
-
+  }
 });
-
-
-
-
-  
